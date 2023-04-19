@@ -1,3 +1,8 @@
+/* Minimal styling intended to resemble wikipedia*/
+/* Can target LARGE sections due to this hence no */
+/* classes/little specification here */
+
+
 body {
   color: #05080C;
   font-family: sans-serif;
@@ -11,25 +16,37 @@ p {
   font-family: Georgia,Times,"Times New Roman",serif;
 }
 
+/* Matching the header and article style layout*/
+
 header {
   border-top: 5px solid #222222;
   padding: 0 100px;
 }
 
 article {
+  /*background-color: red;*/
   border-bottom: 5px solid #222222;
-  padding: 0 100px;
+  padding: 0px 100px;
 }
+
+/* Standard practices/most comfortable viewing to float the image to the */
+/* right of the container */
+
+/* Left margin added for readability */
 
 article img {
   float: right;
   margin-left: 20px;
 }
 
+/* Important to differentiate the table header styling for table data */
+/* Consistency in padding important */
+
 th {
   background: #222;
   color: white;
   padding: 10px;
+  /*border: red 1px solid;*/
 }
 
 td {
